@@ -43,3 +43,7 @@ pub use trinket_pro::*;
 mod trinket;
 #[cfg(feature = "trinket")]
 pub use trinket::*;
+#[cfg(feature = "anet-3d")]
+mod anet3d;
+#[cfg(feature = "anet-3d")]
+pub use anet3d::*;
